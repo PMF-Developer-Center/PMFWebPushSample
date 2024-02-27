@@ -1,0 +1,38 @@
+{
+  "name": "PMFWebPushSample",
+  "description": "",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "http-proxy-middleware": "^0.20.0",
+    "ibm-mfp-web-push": "file:D:/mfp-web-push-8.0.2020052213/ibm-mfp-web-push-8.0.2020052213.tgz",
+    "ibm-mfp-web-sdk": "^8.0.2020040409",
+    "jssha": "^2.3.1",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "react-scripts": "3.0.1",
+    "sjcl": "^1.0.8"
+  },
+  "scripts": {
+    "start": "react-scripts --openssl-legacy-provider start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "author": "Yash Soni"
+}
